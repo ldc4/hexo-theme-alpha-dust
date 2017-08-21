@@ -1,17 +1,19 @@
 # Logo (Font Awesome Class)
-fa_logo: fa-cube
+fa_logo: fa-gg
 
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  About: /about.html
-  Tags: /tags
-  Categories: /categories
-  Contact: /contact.html
+  Home - 首页: /
+  Tags - 标签: /tags
+  Archives - 归档: /archives
+  Categories - 分类: /categories
+  +: /#menu
+  E-Nav - 生态导航: ../page/e-nav
+  WD-Event - 凌辰大事件: ../page/wd-event
+  
 
 # Default post title
-default_post_title: Untitled
+default_post_title: 
 
 # Archive Date Format
 archive_date_format: MMM YYYY
@@ -19,26 +21,19 @@ archive_date_format: MMM YYYY
 # Comments.
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: weedust
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-104966508-1
 
 # Social Accounts
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
-instagram_url: https://www.instagram.com/
-dribble_url: https://dribbble.com/
-github_url: https://github.com/klugjo/hexo-theme-alpha-dust
-googleplus_url: https://plus.google.com/
-behance_url: https://www.behance.net/
-fivehundredpx_url: https://500px.com/
-email_url: test@example.com
-rss_url: \#
+github_url: https://github.com/ldc4
+email_url: 544420314@qq.com
+
 
 # Footer About Text
-footer_about: "This theme was developed by <a href=\"https://github.com/klugjo\">Jonathan Klughertz</a>. The source code is available on Github. Create Websites. Make Magic."
+footer_about: "天道酬勤，越努力，越幸运！<br />克己自律，逐梦前行！<br />知足常乐！"
 
 # Footer Copyright Line
-footer_copyright: "@Untitled. All right reserved | Design & Hexo <a href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+footer_copyright: "@weedustzhao. All right reserved"
 

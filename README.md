@@ -1,3 +1,26 @@
+# 基于alpha-dust修复一些问题
+
+1.不能使用不要标题的单独的页面
+
+添加一个`article-page.ejs`文件来解决
+
+2.首页文章列表的文章标题的“添加评论”链接有问题
+
+是因为url和root配置错误，应该：
+```
+url: http://ldc4.github.io/blog
+root: /blog/﻿​
+```
+
+3.不同页面的LOGO问题
+
+修改layout下面的ejs文件：
+`<%- partial('_partial/header.ejs', {logoIcon: '', headerTitle: ''}) %>`
+
+4.i18n有问题
+
+过段时间来发现正常了，应该是缓存数据导致的，`hexo cl`能解决吧。
+
 # Alpha Dust Hexo Blog Theme
 
 ![](http://www.codeblocq.com/img/hexo-theme-thumbnail/AlphaDust.jpg)
