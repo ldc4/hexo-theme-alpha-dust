@@ -6,7 +6,7 @@
             <%- partial('_partial/header.ejs', {logoIcon: 'fa fa-tags', headerTitle: page.title}) %>
             <section class="main archive-container">
                 <% site.tags.forEach(function(tag) { %>
-                        <%- partial('_partial/tag-cat-item', {item: {path: tag.path, title: '#' + tag.name}}) %>
+                        <%- partial('_partial/tag-cat-item', {item: {path: tag.path, title: '# ' + tag.name}}) %>
                 <% }); %>
             </section>
         <% } else if (page.type === 'categories' || page.type === 'category') { %>

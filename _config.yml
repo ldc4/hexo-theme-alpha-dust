@@ -9,7 +9,7 @@ menu:
   Categories - 分类: /categories
   +: /#menu
   E-Nav - 生态导航: ../page/e-nav
-  WD-Event - 凌辰大事件: ../page/wd-event
+  # WD-Event - 凌辰大事件: ../page/wd-event
   
 
 # Default post title
@@ -32,7 +32,7 @@ email_url: 544420314@qq.com
 
 
 # Footer About Text
-footer_about: "天道酬勤，越努力，越幸运！<br />克己自律，逐梦前行！<br />知足常乐！"
+footer_about: "天道酬勤，越努力，越幸运！<br />克己自律，逐梦前行！<br />愿一如既往！"
 
 # Footer Copyright Line
 footer_copyright: "@weedustzhao. All right reserved"

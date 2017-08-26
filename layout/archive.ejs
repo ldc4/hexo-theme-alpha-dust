@@ -1,8 +1,13 @@
 <%
     var title = '';
+    var icon = '';
     if (page.archive) {
-        if (page.year) title = page.year + (page.month ? '/' + page.month : '');
-        else title = __('archive_a');
+        if (page.year) {
+            title = page.year + (page.month ? '/' + page.month : '');
+        } else {
+            title = __('archive_a');
+        }
+        icon = 'fa fa-archive';
     }
 
     var postList = [];
@@ -13,6 +18,7 @@
             }
         });
         title = page.category;
+        icon = 'fa fa-th-large';
     }
     else if (page.tag) {
         site.tags.forEach(function(item) {
@@ -21,6 +27,7 @@
             }
         });
         title = "#" + page.tag;
+        icon = 'fa fa-tags';
     } else {
         postList = site.posts;
     }
@@ -30,7 +37,7 @@
     <div class="col-sm-12">
 
         <!--Title and Logo-->
-        <%- partial('_partial/header.ejs', {logoIcon: 'fa fa-archive', headerTitle: title}) %>
+        <%- partial('_partial/header.ejs', {logoIcon: icon, headerTitle: title}) %>
 
         <section class="main archive-container">
             <% postList.each(function(item){ %>
